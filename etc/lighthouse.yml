@@ -46,5 +46,6 @@ volumes:
   lighthousedata:
     driver: local
     driver_opts:
-      type: "ext4"
+      o: bind
+      type: none
       device: "/home/ec2-user/data/lighthousedata"
