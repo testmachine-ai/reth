@@ -45,3 +45,6 @@ services:
 volumes:
   lighthousedata:
     driver: local
+    driver_opts:
+      type: "ext4"
+      device: "/home/ec2-user/data/lighthousedata"
