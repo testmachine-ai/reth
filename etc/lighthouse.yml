@@ -48,4 +48,4 @@ volumes:
     driver_opts:
       o: bind
       type: none
-      device: "/home/ec2-user/data/lighthousedata"
+      device: /home/ec2-user/data/lighthousedata

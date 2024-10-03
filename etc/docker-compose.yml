@@ -72,34 +72,34 @@ volumes:
     driver_opts:
       o: bind
       type: none
-      device: "/home/ec2-user/data/mainnet_data"
+      device: /home/ec2-user/data/mainnet_data
   sepolia_data:
     driver: local
     driver_opts:
       o: bind
       type: none
-      device: "/home/ec2-user/data/sepolia_data"
+      device: /home/ec2-user/data/sepolia_data
   holesky_data:
     driver: local
     driver_opts:
       o: bind
       type: none
-      device: "/home/ec2-user/data/holesky_data"
+      device: /home/ec2-user/data/holesky_data
   logs:
     driver: local
     driver_opts:
       o: bind
       type: none
-      device: "/home/ec2-user/data/logs"
+      device: /home/ec2-user/data/logs
   prometheusdata:
     driver: local
     driver_opts:
       o: bind
       type: none
-      device: "/home/ec2-user/data/prometheusdata"
+      device: /home/ec2-user/data/prometheusdata
   grafanadata:
     driver: local
     driver_opts:
       o: bind
       type: none
-      device: "/home/ec2-user/data/grafanadata"
+      device: /home/ec2-user/data/grafanadata
